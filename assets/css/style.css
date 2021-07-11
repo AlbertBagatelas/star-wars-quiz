@@ -68,3 +68,11 @@ h2 {
     background: linear-gradient(90deg, rgb(232, 13, 13) 0%, rgb(0, 102, 255) 100%);
     border-radius: 4px;
 }
+
+/* adds a hover effect for the button */
+.btn:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(223, 9, 216, 0.6);
+    transition: transform 150ms;
+    transform: scale(1.03);
+}

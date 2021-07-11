@@ -156,3 +156,21 @@ input[radio] {
 .float-right {
     float: right;
 }
+
+/* styling for the hud are of quiz */
+.hud {
+    width: 100%;
+}
+
+.hud-inner-item {
+    color: #fff;
+    font-size: 3rem;
+}
+
+#score {
+    font-size: 5rem;
+}
+
+#question-counter {
+    font-size: 5rem;
+}

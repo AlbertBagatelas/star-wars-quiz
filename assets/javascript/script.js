@@ -28,3 +28,25 @@ function difficultyForm(event){
         errorMsg.innerHTML = `Please select a difficulty!`;
     }
 }
+/*
+const question = document.querySelector('#question')
+const answer = Array.from(document.querySelectorAll('.choice-text'))
+*/
+let questions = [
+    {
+        question: 'What was Darth Vaders response to luke skywalker when he said "He told me enough, he told me you killed him?"',
+        choice1: 'No, I am your Father',
+        choice2: 'Luke, I am your Father',
+        choice3: 'I am your Father',
+        choice4: 'Obi-wan was your Father',
+        answer: 1,
+    },
+    {
+        question: 'Which part of the first death star had to be shot at to destroy it?',
+        choice1: 'The Engines',
+        choice2: 'The Sheild Generator',
+        choice3: 'The Exhaust Port',
+        choice4: 'The Outer Walls',
+        answer: 3,
+    },
+]

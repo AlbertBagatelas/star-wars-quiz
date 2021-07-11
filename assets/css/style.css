@@ -7,3 +7,15 @@
     font-family: 'IBM Plex Serif', sans-serif;
     background-color: rgb(42, 42, 42);
 }
+
+/* style for the headings of the quiz */
+h1 {
+    font-size: 4rem;
+    color: #fff;
+    margin-bottom: 5rem;
+}
+
+h2 {
+    font-size: 3rem;
+    margin-bottom: 4rem;
+}

@@ -19,3 +19,39 @@ h2 {
     font-size: 3rem;
     margin-bottom: 4rem;
 }
+
+/* style for the container div */
+.container {
+    width: 80%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+/* stlye for the Classes flex center and flex column  */
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-center {
+    justify-content: center;
+    align-items: center;
+}
+
+/* may add later */
+.justify-center {
+    justify-content: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}

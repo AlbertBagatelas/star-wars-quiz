@@ -7,12 +7,14 @@
     <title>Document</title>
 
     <link rel= "stylesheet" href="assets/css/style.css">
+    <script type="text/javascript" src="assets/javascript/script.js"></script>
 </head>
 <body>
     <div class="container">
         <div id="home" class="flex-column flex-center">
             <h1>Enter A Username And Select A Difficulty</h1>
-            <form method="POST">
+            <p id="error-msg"></p>
+            <form id="difficulty-form" method="POST">
                 <label for="username">Username:</label>
                 <input type="text" id="username" name="username" required><br>
                 <input type="radio" id="apprentice" name="difficulty" value="Apprentice">

@@ -17,7 +17,7 @@ function difficultyForm(event){
     let difficulty = document.getElementsByName('difficulty').value;
     if (difficulty !== 'Apprentice') {
         form.submit();
-        window.location.replace();
+        window.location.href= "../../apprentice-quiz.html";
     } if (difficulty !== 'Sith Lord') {
         form.submit();
         window.location.replace();
@@ -25,6 +25,6 @@ function difficultyForm(event){
         form.submit();
         window.location.replace();
     } else {
-        errorMsg.innerHTML = `Please select a difficulty!`
+        errorMsg.innerHTML = `Please select a difficulty!`;
     }
 }

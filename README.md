@@ -1,102 +1,164 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# The Star Wars Quiz
+The aim of this website is to provide a quick and fun quiz game, to be able to test your Star Wars knowledge, with varing questions of difficulty, some being harder to answer and some which will be easier.
 
-Welcome AlbertBagatelas,
+View the live project [here]()
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. The last update to this file was: **July 2, 2021**
+## Pictures of the live website
+![The Start up page logo]()
 
-## Gitpod Reminders
+![Home Page]()
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+![The Game]()
 
-`python3 -m http.server`
+![The Scoreboard]()
 
-A blue button should appear to click: _Make Public_,
+## Goals
+* My Goal is to reach for a target audience of teenagers and young adults for the website.
+* One of the goals for this website is for the userto have some quick fun.
+* Another goal of mine is to see if the user of the quiz can be challenged by the quiz.
+* 
+* 
 
-Another blue button should appear to click: _Open Browser_.
+## User Experience Goals
+* First Time User Goals-
+    * As a First Time User, I would like the quiz to test my knoledge of Star Wars.
+    * As a First Time User, I would like the game to be avalible to use on my phone.
+* Returning  User Goals-
+    * As a Returning User, I would like for the quiz to put the questions in alternating orders.
+    * As a Returning User, I would like to be able to give some feedback for the quiz.
+* Frequent User goals-
+    * As a Frequent User, I would like to see varying Questions in the quiz.
+    * As a Frequent User, I would like the style of the GameSite to keep a similar style so it is easy to navigate through.
+    * As a Frequent User, I would like my previous Scores to be saved to check how well I do Compared to the last time I was There.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+## The Design!
+* Fonts used!
+    * 
+    * 
+    * 
+* Colours used!
+    * 
+* Images/Videos used!
+    * 
+    * 
+* Interactivity Used!
+    * 
 
-A blue button should appear to click: _Make Public_,
+## Wireframes
+![The start up page Wireframe]()
 
-Another blue button should appear to click: _Open Browser_.
+![Home Wireframe]()
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+![Game wireframe]()
 
-To log into the Heroku toolbelt CLI:
+![The scoreboard]()
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+## The Features
+* This website is responsive on all devices.
+* There are interactive elements to the website.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+## Languages Used
+* HTML5
+* CSS
+* JavaScript
 
-------
+## Frameworks, Libraries and Programs Used
+* [Goggle Fonts-](https://fonts.google.com/) Google Fonts was used to import the style IBM Plex Serif and Playfair into the .css file, which is used throughout the whole website.
+* [Git-](https://git-scm.com/) This was used for control of the Gitpod terminal to allow me to push it to GitHub.
+* [GitHub-](https://github.com/) This was used to hold the projects data and code that has been pushed from Gitpod, and serves as a hosting platform.
+* [Balsamiq](https://balsamiq.com/) Balsamiq was used to creat my wireframes for my design process to ensure that I had a good base design before starting the project.
 
-## Release History
+## Testing
+I used the W3C Markup Validator to ensure that the HTML code that I have done is legal to use. I Used W3C CSS Validator to ensure that the css I have used is legal to use and won't cause any issues. I used JSHint to ensure that the JavaScript that I have used works properly and shows if their are any major issues.
+* [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)- [My Results]()
+* [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)- [My Results]()
+* [Responsinator](https://www.responsinator.com/?url=https%3A%2F%2Falbertbagatelas.github.io%2Fthird-punic-war%2F)
+* [JSHint](https://jshint.com/)
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+## Other Testing
+* The website was tested on Brave, Google Chrome, Microsoft Edge, Safari and Samsung Internet browsers
+* The website was veiwed on different devices like, a desktop, a laptop, a Iphone, 6, 7, 8, 10 and 11 a Samsung Galaxy S21 and a S21 Ultra.
+* I used serprate example html and css file's to test and make changes to the responsivity of the website, to ensure it fully looked How I intended and was responsive 
+* I also asked family to look at the website to help point out any bugs with the website.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+## Testing User Stories from the User Experience Goals section
+* Firt Time User Goals
+    1. 
+        1. 
+        1. 
+    1. 
+        1. 
+        1. 
+* Returning User Goals
+    1. 
+        1. 
+    1. 
+        1. 
+* Frequent User Goals
+    1. 
+        1. 
+    1. 
+        1. 
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+## Bugs
+* There are currently no known bugs to the website.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+## Deployment
+### GitHub pages
+This project is deployed to GitHub Pages you can do this by going to-
+ 1. Log on to your GitHub account and go to the [GitHub repository]()
+ 1. Once inside the repository locate and go onto the settings menu
+ 1. On the left had side of the page their will be maore options click the one that says Pages
+ 1. Under the source section click the drop down menu called 'None' and select 'Master Branch'
+ 1. The page will refresh
+ 1. Then if you go back down the live project will be linked in the pages section
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+ ### Forking the GitHub Repository
+ When forking the repository you make a copy of the original repository on your GitHub account to veiw and/or make changes to so it doesnt effect the original. you do this by dong -
+ 1. Log on to GitHub and locate the [GitHub Repository](https://github.com/AlbertBagatelas/star-wars-quiz)
+ 1. At the top of the repository above the settings button, locate the fork button.
+ 1. You should now have a copy of the original repository in your GitHub account.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+ ### Making a Local Clone
+ 1. Log on to GitHub and locate the [GitHub Repository](https://github.com/AlbertBagatelas/star-wars-quiz)
+ 1. Under the repository name, click 'Clone or Download'
+ 1. To clone the repository using HTTPS, under 'Clone with HTTPS', copy the link.
+ 1. Open Git Bash
+ 1. Change the current working directory to the location where you want the cloned directory to be made.
+ 1. Type git clone, and then paste the URL you copied in step 3.
+ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+ 1. Press Enter. Your local clone will be created.
+ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+> Cloning into `CI-Clone`...
+> remote: Counting objects: 10, done.
+> remote: Compressing objects: 100% (8/8), done.
+> remove: Total 10 (delta 1), reused 10 (delta 1)
+> Unpacking objects: 100% (10/10), done.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+Click [Here](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository-from-github/cloning-a-repository#cloning-a-repository-to-github-desktop) to retrieve pictures for some of the buttons and more detailed explanations of the above process.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+## Credit
+### Code
+* 
+* 
+* To create the copyright for bottom of the page i got help using [this.](https://www.html.am/html-codes/character-codes/html-copyright-code.cfm)
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+### Content
+* I used [Wikipedia]() 
+* I used [History]() f
+* I used two different color pickers to have a external look for the colors which would then give me the code for the colors-
+    * For the hex color codes I used [HTML color codes](https://htmlcolorcodes.com/)
+    * For the RGB color codes I used [W3Schools](https://www.w3schools.com/colors/colors_rgb.asp)
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+### Media
+* My images for the website here-
+    * [here]()
+    * [here]()
+    * [here]()
+    * [here]()
+    * [here]()
+    * [here]()
+* The images throughout this README file I used the windows 10 built in snipping tool to capture my final website and the validator results.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+### Acknowledgements
+* I would like to thank my mentor for the helpful feedback throughout the project, it really helped.

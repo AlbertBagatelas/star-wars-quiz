@@ -12,15 +12,16 @@
     <div class="container">
         <div id="home" class="flex-column flex-center">
             <h1>Enter A Username And Select A Difficulty</h1>
-            <form>
+            <form method="POST">
                 <label for="username">Username:</label>
-                <input type="text" id="username" name="username">
+                <input type="text" id="username" name="username" required><br>
                 <input type="radio" id="apprentice" name="difficulty" value="Apprentice">
-                <label for="apprentice">Apprentice</label><br>
+                <label for="apprentice">Apprentice</label>
                 <input type="radio" id="sith-lord" name="difficulty" value="Sith Lord">
-                <label for="sith-lord">Sith Lord</label><br>
+                <label for="sith-lord">Sith Lord</label>
                 <input type="radio" id="dark-lord" name="difficulty" value="Dark Lord">
-                <label for="dark-lord">Dark Lord</label>
+                <label for="dark-lord">Dark Lord</label><br>
+                <input type="submit" class="btn submit-btn" value="Ready">
             </form>
         </div>
     </div>

@@ -23,7 +23,7 @@ h2 {
 /* style for the container div */
 .container {
     width: 80%;
-    height: 700px;
+    height: 900px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -75,4 +75,25 @@ h2 {
     box-shadow: 0 0.4rem 1.4rem 0 rgba(223, 9, 216, 0.6);
     transition: transform 150ms;
     transform: scale(1.03);
+}
+
+/* styling for the form */
+#username {
+    margin: 2rem;
+    background-color: rgba(223, 9, 216, 0.6);
+}
+
+label {
+    color: #fff;
+    margin-right: 2rem;
+    width: 200px;
+    height: 200px;
+}
+
+input[radio] {
+    margin-bottom: 2rem;
+}
+
+.submit-btn {
+    margin-top: 3rem;
 }

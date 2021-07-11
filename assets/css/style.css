@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&family=Playfair+Display&display=swap');
+
+/* Initial overall border preset */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'IBM Plex Serif', sans-serif;
+    background-color: rgb(42, 42, 42);
+}

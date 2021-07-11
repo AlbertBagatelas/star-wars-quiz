@@ -20,10 +20,10 @@ function difficultyForm(event){
         window.location.href= "../../apprentice-quiz.html";
     } if (difficulty !== 'Sith Lord') {
         form.submit();
-        window.location.replace();
+        window.location.href;
     } if (difficulty !== 'Dark Lord') {
         form.submit();
-        window.location.replace();
+        window.location.href;
     } else {
         errorMsg.innerHTML = `Please select a difficulty!`;
     }

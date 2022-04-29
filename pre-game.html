@@ -1,22 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Meta data of the website -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="A Star Wars Quiz to test knowledge">
     <meta name="keywords" content="Star Wars, Quiz, Knowledge">
+
+    <!-- Title of the website -->
     <title>Star Wars Quiz</title>
 
+    <!-- Linked CSS Style sheet -->
     <link rel= "stylesheet" href="assets/css/style.css">
 </head>
 <body>
     <div class="container">
+        <!-- Area to input username and amount of questions wanted -->
         <div id="home" class="flex-column flex-center">
+            <!-- Title to instruct the user on what to do -->
             <h1>Enter A Username And Select A Difficulty</h1>
             <p id="error-msg"></p>
             <form id="difficulty-form" method="POST">
+                <!-- A label to enter a Username -->
                 <label for="username">Username:</label>
+                <!-- Radio buttons to find out how many question to be selected -->
                 <input type="text" id="username" name="username" required><br>
                 <input type="radio" id="apprentice" name="difficulty" value="Apprentice">
                 <label for="apprentice">Apprentice</label>
@@ -28,7 +36,9 @@
             </form>
         </div>
     </div>
+    <!-- The linked JavaScript file -->
     <script type="text/javascript" src="assets/javascript/script.js"></script>
 </body>
+<!-- A link to Font Awesome -->
 <script src="https://kit.fontawesome.com/1dccfbb6ce.js" crossorigin="anonymous"></script>
 </html>

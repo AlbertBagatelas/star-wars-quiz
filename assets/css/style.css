@@ -78,6 +78,7 @@ h2 {
 }
 
 /* styling for the form */
+/* styling foer the username label */
 #username {
     margin: 2rem;
     background-color: rgba(223, 9, 216, 0.6);
@@ -90,10 +91,12 @@ label {
     height: 200px;
 }
 
+/* Styling to create space for the radio buttons */
 input[radio] {
     margin-bottom: 2rem;
 }
 
+/* Styling to create space for the submit button */
 .submit-btn {
     margin-top: 3rem;
 }
@@ -103,12 +106,14 @@ input[radio] {
     width: 100%;
 }
 
+/* Styling for the question text */
 #question {
     color: #fff;
     margin-bottom: 3rem;
     font-size: 2rem;
 }
 
+/* styling for the answer boxes */
 .answer-container {
     font-size: 2rem;
     padding: 2rem 0;
@@ -122,6 +127,7 @@ input[radio] {
     border-radius: 4px;
 }
 
+/* addes a hover effect to the answer boxes */
 .answer-container:hover {
     cursor: pointer;
     box-shadow: 0 0.4rem 1.4rem 0 rgba(223, 9, 216, 0.6);
@@ -129,6 +135,7 @@ input[radio] {
     transform: scale(1.03);
 }
 
+/* makes the text in the answer boxes inherit the properties of the boxes (may change later) */
 .choice-letter {
     background: inherit;
 }
@@ -137,6 +144,7 @@ input[radio] {
     background: inherit;
 }
 
+/* makes the answer boxes either float left or right */
 .float-left {
     float: left;
 }
@@ -150,6 +158,7 @@ input[radio] {
     width: 100%;
 }
 
+/* addes styling for the text of the hud */
 .hud-inner-item {
     color: #fff;
     font-size: 3rem;
